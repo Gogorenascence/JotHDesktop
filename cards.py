@@ -13,6 +13,7 @@ class PluckDeck:
                 id,
                 name,
                 cards,
+                owner,
                 ):
                 self.id = id
                 self.name = name

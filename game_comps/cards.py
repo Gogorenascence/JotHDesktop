@@ -1,22 +1,14 @@
-class MainDeck:
+class Deck:
         def __init__(self,
                 id,
                 name,
                 cards,
+                pluck,
                 ):
                 self.id = id
                 self.name = name
                 self.cards = cards
-
-class PluckDeck:
-        def __init__(self,
-                id,
-                name,
-                cards,
-                ):
-                self.id = id
-                self.name = name
-                self.cards = cards
+                self.pluck = pluck
 
 class MainDeckCard:
         def __init__(self,

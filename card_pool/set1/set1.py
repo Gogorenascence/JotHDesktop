@@ -37,5 +37,3 @@ card_pool_set1 += [
     gravity_enforcer,
     generic1,
 ]
-
-print[card_pool_set1]

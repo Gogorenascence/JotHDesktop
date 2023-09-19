@@ -17,8 +17,7 @@ from card_pool.set1.i16ge1 import gravity_enforcer
 from card_pool.set1.gen1 import generic1
 
 
-card_pool_set1 = []
-card_pool_set1 += [
+set1 =[
     pantheraman,
     golden_wall,
     bone_whisperer,
@@ -37,3 +36,8 @@ card_pool_set1 += [
     gravity_enforcer,
     generic1,
 ]
+
+card_pool_set1 = []
+for series in set1:
+    for card in series:
+        card_pool_set1.append(card)

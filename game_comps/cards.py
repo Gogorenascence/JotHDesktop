@@ -65,15 +65,3 @@ class PluckDeckCard:
                 self.picture_url = picture_url
                 self.card_type = card_type
                 self.card_tags = card_tags
-
-class MainDiscard:
-        def __init__(self,
-                cards,
-                ):
-                self.cards = cards
-
-class PluckDiscard:
-        def __init__(self,
-                cards,
-                ):
-                self.cards = cards
